@@ -1,6 +1,4 @@
-//Assign6_Daler
 #define WIN32_LEAN_AND_MEAN 
-
 #define NOATOM
 #define NOCLIPBOARD
 #define NOCOMM
@@ -333,48 +331,8 @@ void WINAPI Bake(int who) //who is 1 or 2 passed by x from loop from main
 				}
 			}
 
-			ReleaseMutex(Bins->GuardBin); //////////////////////////
+			ReleaseMutex(Bins->GuardBin); 
 
-			/*
-			if (who == 2) {
-				if (Type == 0) {
-					int two_0 = 0;
-					two_0++;
-				}
-				else if (Type == 1) {
-					int two_1 = 0;
-					two_1++;
-				}
-				else if (Type == 2) {
-					int two_2 = 0;
-					two_2++;
-				}
-				else{
-			    //if (Type == 3) {
-					int two_3 = 0;
-					two_3++;
-				}
-			}
-			if (who == 3) {
-				if (Type == 0) {
-					int thr_0 = 0;
-					thr_0++;
-				}
-				else if (Type == 1) {
-					int thr_1 = 0;
-					thr_1++;
-				}
-				else if (Type == 2) {
-					int thr_2 = 0;
-					thr_2++;
-				}
-				else{
-				//if (Type == 3) {
-					int thr_3 = 0;
-					thr_3++;
-				}
-			}//stupid if
-			*/
 
 		}//if
 	}//while
